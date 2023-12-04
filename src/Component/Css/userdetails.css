@@ -1,0 +1,35 @@
+.View_Profile_imgDetails {
+  background-color: #121212;
+  color: white;
+}
+.card_value {
+  padding: 11px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.image_size {
+  width: 100%;
+}
+.View_Profile_Container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.View_Profile_ImageSide {
+  height: 200px;
+}
+.View_Profile_Container_right {
+  margin-left: 20%;
+}
+.Img_Name_Heading {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.ViewProfile_PersonalDetails_heading {
+  margin-left: 20px;
+  color: grey;
+}
+.personalDetails_contents {
+  font-size: 15px;
+}

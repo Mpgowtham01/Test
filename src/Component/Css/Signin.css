@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+main {
+  width: 100%;
+}
+.loginPage_nfc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../Assets/LoginTemp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginPageInput {
+  height: 40px;
+  padding: 10px;
+  width: inherit;
+}
+.Form_A {
+  background-color: rgba(68, 93, 72, 0.5);
+  border-radius: 5%;
+  padding: 4%;
+  margin-bottom: 2%;
+  width: 510px;
+}
+.normal_input {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.normal_file {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 5px;
+}
+.label_input {
+  font-weight: 700;
+}
+.required {
+  color: red;
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .Form_A {
+    /* background-color: rgba(0, 0, 0, 0.473); */
+    background-color: rgba(68, 93, 72, 0.5);
+    border-radius: 5%;
+    padding: 4%;
+    margin-bottom: 2%;
+    width: 260px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .Form_A {
+    /* background-color: rgba(0, 0, 0, 0.473); */
+    background-color: rgba(68, 93, 72, 0.5);
+    border-radius: 5%;
+    padding: 4%;
+    margin-bottom: 2%;
+    width: 310px;
+  }
+}
+
+.form_outline {
+  display: flex;
+  flex-direction: column;
+}
+.button_form {
+  font-size: 16px;
+  padding: 4%;
+  border: 0px;
+  background-color: #fde5d4;
+  font-size: large;
+  font-weight: 500;
+  width: 50%;
+  border-radius: 5px;
+}
+.button_form:focus {
+  background-color: #fee0cb;
+  border: none;
+}
+.button_form1 {
+  font-size: 16px;
+  padding: 4%;
+  border: 0px;
+  border: 1px solid gray;
+  background-color: #fde1cd;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 48%;
+  margin-right: 2%;
+}
+.form-check {
+  padding-left: 27px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.button_form1:focus {
+  background-color: #fee0cb;
+  border: none;
+}
+.form-outline {
+  padding: 2%;
+}
+.form_Log_iv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.btn-submit-form {
+  padding: 2%;
+  background-color: aqua;
+}
+.formP_label {
+  font-size: 16px;
+  /* margin-bottom: 3%; */
+  color: #fff;
+  margin-top: 5px;
+}
+
+.NfcLogin {
+  padding: 0px;
+}
+.form_login_style {
+  width: 100%;
+  background-color: #fde5d4;
+  font-size: small;
+  border-radius: 10px;
+  padding: 3%;
+  font-weight: 500;
+  font-size: large;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.form_error {
+  color: red;
+  margin: 0px;
+  font-size: 11px;
+}
+
+/* /////////////////////////////////////////////---------dashboard----////////////////////////////////////////////////////////////// */
